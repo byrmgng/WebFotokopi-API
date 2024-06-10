@@ -1,0 +1,6 @@
+@WebFotokopi.API_HostAddress = http://localhost:5068
+
+GET {{WebFotokopi.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

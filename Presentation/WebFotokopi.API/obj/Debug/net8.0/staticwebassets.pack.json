@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Bayram\\Desktop\\WebFotokopiV2\\API\\WebFotokopi\\Presentation\\WebFotokopi.API\\wwwroot\\files\\aa53cf93-9147-4cdf-b45a-a6abb1c3e011.pdf",
+      "PackagePath": "staticwebassets\\files\\aa53cf93-9147-4cdf-b45a-a6abb1c3e011.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Bayram\\Desktop\\WebFotokopiV2\\API\\WebFotokopi\\Presentation\\WebFotokopi.API\\wwwroot\\files\\e35c0029-c2cd-41c2-b11d-a4fe2b433ac0.pdf",
+      "PackagePath": "staticwebassets\\files\\e35c0029-c2cd-41c2-b11d-a4fe2b433ac0.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebFotokopi.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebFotokopi.API.props",
+      "PackagePath": "build\\WebFotokopi.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebFotokopi.API.props",
+      "PackagePath": "buildMultiTargeting\\WebFotokopi.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebFotokopi.API.props",
+      "PackagePath": "buildTransitive\\WebFotokopi.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

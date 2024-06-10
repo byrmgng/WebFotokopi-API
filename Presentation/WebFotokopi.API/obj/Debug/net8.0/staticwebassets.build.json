@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "9MeGg1fdCi0GdPT9hwuoENq8mEs1XxSixd6+1vVotcY=",
+  "Source": "WebFotokopi.API",
+  "BasePath": "_content/WebFotokopi.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebFotokopi.API\\wwwroot",
+      "Source": "WebFotokopi.API",
+      "ContentRoot": "C:\\Users\\Bayram\\Desktop\\WebFotokopiV2\\API\\WebFotokopi\\Presentation\\WebFotokopi.API\\wwwroot\\",
+      "BasePath": "_content/WebFotokopi.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Bayram\\Desktop\\WebFotokopiV2\\API\\WebFotokopi\\Presentation\\WebFotokopi.API\\wwwroot\\files\\aa53cf93-9147-4cdf-b45a-a6abb1c3e011.pdf",
+      "SourceId": "WebFotokopi.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bayram\\Desktop\\WebFotokopiV2\\API\\WebFotokopi\\Presentation\\WebFotokopi.API\\wwwroot\\",
+      "BasePath": "_content/WebFotokopi.API",
+      "RelativePath": "files/aa53cf93-9147-4cdf-b45a-a6abb1c3e011.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\aa53cf93-9147-4cdf-b45a-a6abb1c3e011.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Bayram\\Desktop\\WebFotokopiV2\\API\\WebFotokopi\\Presentation\\WebFotokopi.API\\wwwroot\\files\\e35c0029-c2cd-41c2-b11d-a4fe2b433ac0.pdf",
+      "SourceId": "WebFotokopi.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bayram\\Desktop\\WebFotokopiV2\\API\\WebFotokopi\\Presentation\\WebFotokopi.API\\wwwroot\\",
+      "BasePath": "_content/WebFotokopi.API",
+      "RelativePath": "files/e35c0029-c2cd-41c2-b11d-a4fe2b433ac0.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\e35c0029-c2cd-41c2-b11d-a4fe2b433ac0.pdf"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.CityController",
+    "Method": "GetAllCity",
+    "RelativePath": "api/City",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.CustomerController",
+    "Method": "CreateCustomer",
+    "RelativePath": "api/Customer/CreateCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCustomerCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.AppCustomerCommands.CreateCustomer.CreateCustomerCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.CustomerController",
+    "Method": "LoginCustomer",
+    "RelativePath": "api/Customer/LoginCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginCustomerCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.AppCustomerCommands.LoginCustomer.LoginCustomerCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.CustomerController",
+    "Method": "RefreshTokenLoginCustomer",
+    "RelativePath": "api/Customer/RefreshTokenLoginCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenLoginCustomerCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.AppCustomerCommands.RefreshTokenLoginCustomer.RefreshTokenLoginCustomerCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.DistrictController",
+    "Method": "GetByCityIdDistrict",
+    "RelativePath": "api/District",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.FileController",
+    "Method": "CreateFile",
+    "RelativePath": "api/File/CreateFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FileTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileNote",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileContent",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.FileController",
+    "Method": "DeleteFile",
+    "RelativePath": "api/File/DeleteFile",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.FileController",
+    "Method": "GetByIdFile",
+    "RelativePath": "api/File/GetByIdFile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getByIdFileQueryRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.FileQueries.GetByIdFile.GetByIdFileQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.FileController",
+    "Method": "GetByIdFileForCustomer",
+    "RelativePath": "api/File/GetByIdFileForCustomer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getByIdFileForCustomerQueryRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.FileQueries.GetByIdFileForCustomer.GetByIdFileForCustomerQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.FileController",
+    "Method": "GetFile",
+    "RelativePath": "api/File/GetFile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getFilterFileQueryRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.FileQueries.GetFilterFile.GetFilterFileQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.FileController",
+    "Method": "GetFileForCustomer",
+    "RelativePath": "api/File/GetFileForCustomer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getFilterFileForCustomerQueryRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.FileQueries.GetFilterFileForCustomer.GetFilterFileForCustomerQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.FileController",
+    "Method": "UpdateFile",
+    "RelativePath": "api/File/UpdateFile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFileCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.FileCommands.UpdateFile.UpdateFileCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.OrderController",
+    "Method": "GetActiveOrder",
+    "RelativePath": "api/Order/GetActiveOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.OrderController",
+    "Method": "GetOrderDetails",
+    "RelativePath": "api/Order/GetOrderDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.OrderController",
+    "Method": "GetOrderDetailsForSeller",
+    "RelativePath": "api/Order/GetOrderDetailsForSeller",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.OrderController",
+    "Method": "GetOrderDetailsForSellerFilter",
+    "RelativePath": "api/Order/GetOrderDetailsForSellerFilter",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getOrderDetailsForSellerFilterQueryRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.OrderQueries.GetOrderDetailsForSellerFilterQueries.GetOrderDetailsForSellerFilterQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.OrderController",
+    "Method": "PlaceOrder",
+    "RelativePath": "api/Order/PlaceOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.OrderController",
+    "Method": "UpdateOrderStatus",
+    "RelativePath": "api/Order/UpdateOrderStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateOrderStatusCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.OrderCommands.UpdateOrderStatus.UpdateOrderStatusCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.PackageController",
+    "Method": "CreatePackage",
+    "RelativePath": "api/Package/CreatePackage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createPackageCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.PackageCommands.AddPackageCommands.CreatePackageCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.PackageController",
+    "Method": "DeletePackage",
+    "RelativePath": "api/Package/DeletePackage",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.PackageController",
+    "Method": "GetAllPackage",
+    "RelativePath": "api/Package/GetAllPackage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.PackageController",
+    "Method": "GetFilterPackage",
+    "RelativePath": "api/Package/GetFilterPackage",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filterGetPackageQueryRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.PackageQueries.FilterGetPackage.GetFilterPackageQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.PackageController",
+    "Method": "GetFilterPackageCustomer",
+    "RelativePath": "api/Package/GetFilterPackageCustomer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getFilterPackageCustomerRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.PackageQueries.GetFilterPackageCustomer.GetFilterPackageCustomerQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.PackageController",
+    "Method": "GetPackageFeatures",
+    "RelativePath": "api/Package/GetPackageFeatures",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.PackageController",
+    "Method": "UpdatePackage",
+    "RelativePath": "api/Package/UpdatePackage",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePackageCommandsRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.PackageCommands.UpdatePackageCommands.UpdatePackageCommandsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Product/CreateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createProductCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.ProductCommands.CreateProductCommands.CreateProductCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.ProductController",
+    "Method": "CreateProductForCustomer",
+    "RelativePath": "api/Product/CreateProductForCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FileTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileNote",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileContent",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "AppSellerID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PackageID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CustomerNote",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/DeleteProduct",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "CreateSeller",
+    "RelativePath": "api/Seller/CreateSeller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSellerCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.AppSellerCommands.CreateSeller.CreateSellerCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "GetFilterSeller",
+    "RelativePath": "api/Seller/GetFilterSeller",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filterGetSellerQueryRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.SellerQueries.FilterGetSeller.FilterGetSellerQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "GetSellerAccountInfo",
+    "RelativePath": "api/Seller/GetSellerAccountInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "GetSellerFeatures",
+    "RelativePath": "api/Seller/GetSellerFeatures",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getSellerFeaturesRequest",
+        "Type": "WebFotokopi.Application.Features.Queries.SellerQueries.GetSellerFeatures.GetSellerFeaturesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "LoginSeller",
+    "RelativePath": "api/Seller/LoginSeller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginSellerCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.AppSellerCommands.LoginSeller.LoginSellerCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "RefreshTokenLoginSeller",
+    "RelativePath": "api/Seller/RefreshTokenLoginSeller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenLoginSellerCommandRequest",
+        "Type": "WebFotokopi.Application.Features.Commands.AppSellerCommands.RefleshTokenLoginSeller.RefreshTokenLoginSellerCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "UpdateSeller",
+    "RelativePath": "api/Seller/UpdateSeller",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebFotokopi.Application.Features.Commands.AppSellerCommands.UpdateSeller.UpdateSellerCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "UpdateSellerAddress",
+    "RelativePath": "api/Seller/UpdateSellerAddress",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebFotokopi.Application.Features.Commands.SellerAddressCommands.UpdateSellerAddress.UpdateSellerAddressCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "UpdateSellerLogo",
+    "RelativePath": "api/Seller/UpdateSellerLogo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Logo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebFotokopi.API.Controllers.SellerController",
+    "Method": "UpdateSellerLogo2",
+    "RelativePath": "api/Seller/UpdateSellerLogo2",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Logo2",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

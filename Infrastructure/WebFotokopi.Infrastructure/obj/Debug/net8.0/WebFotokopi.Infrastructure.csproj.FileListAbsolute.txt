@@ -1,0 +1,17 @@
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\bin\Debug\net8.0\WebFotokopi.Infrastructure.deps.json
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\bin\Debug\net8.0\WebFotokopi.Infrastructure.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\bin\Debug\net8.0\WebFotokopi.Infrastructure.pdb
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\bin\Debug\net8.0\WebFotokopi.Application.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\bin\Debug\net8.0\WebFotokopi.Domain.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\bin\Debug\net8.0\WebFotokopi.Application.pdb
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\bin\Debug\net8.0\WebFotokopi.Domain.pdb
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\WebFotokopi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\WebFotokopi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\WebFotokopi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\WebFotokopi.Infrastructure.AssemblyInfo.cs
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\WebFotokopi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\WebFotok.268AE936.Up2Date
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\WebFotokopi.Infrastructure.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\refint\WebFotokopi.Infrastructure.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\WebFotokopi.Infrastructure.pdb
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Infrastructure\WebFotokopi.Infrastructure\obj\Debug\net8.0\ref\WebFotokopi.Infrastructure.dll

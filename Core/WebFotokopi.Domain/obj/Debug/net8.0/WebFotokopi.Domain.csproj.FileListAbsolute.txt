@@ -1,0 +1,12 @@
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\bin\Debug\net8.0\WebFotokopi.Domain.deps.json
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\bin\Debug\net8.0\WebFotokopi.Domain.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\bin\Debug\net8.0\WebFotokopi.Domain.pdb
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\WebFotokopi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\WebFotokopi.Domain.AssemblyInfoInputs.cache
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\WebFotokopi.Domain.AssemblyInfo.cs
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\WebFotokopi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\WebFotokopi.Domain.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\refint\WebFotokopi.Domain.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\WebFotokopi.Domain.pdb
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\ref\WebFotokopi.Domain.dll
+C:\Users\Bayram\Desktop\WebFotokopiV2\API\WebFotokopi\Core\WebFotokopi.Domain\obj\Debug\net8.0\WebFotokopi.Domain.csproj.AssemblyReference.cache
